@@ -6,16 +6,12 @@
 
 main {
     min-height: 100vh;
-    background:
-        linear-gradient(to bottom left, #ffffff, transparent),
-        linear-gradient(to top right, #ffeddf, transparent);
-    background-blend-mode: screen;
+    background: url('./1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1537px 750px;
 }
 
-#mainpic {
-    position: absolute;
-    transform: translate(166.2%, 52%);
-}
+
 nav {
     font-family: "Noto+Sans+JP";
     padding-right: 1rem;
@@ -24,6 +20,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     min-height: 10vh;
+    color: white;
 }
 ul {
     list-style: none;
@@ -41,12 +38,12 @@ ul {
 #logo {
     font-size: 1.7rem;
     font-family: "Akaya+Telivigala", cursive;
-    color: #8a430d;
+    color: #ffffff;
     font-weight: bold;
 }
 
 #big-text {
-    color: 8a430d;
+    color: rgb(167, 167, 167);
     font-size: 3.5rem;
     font-family:"Akaya+Telivigala", cursive;
     position: absolute;
