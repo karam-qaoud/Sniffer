@@ -38,7 +38,7 @@ ul {
 #logo {
     font-size: 1.7rem;
     font-family: "Akaya+Telivigala", cursive;
-    color: #ffffff;
+    color:#FEE715FF;
     font-weight: bold;
 }
 
@@ -48,6 +48,20 @@ ul {
     font-family:"Akaya+Telivigala", cursive;
     position: absolute;
     transform: translate(25%, 200%);
+}
+
+#call_to_action {
+    position: absolute;
+    transform: translate(350%, 600%);
+    background-color:#FEE715FF;
+    cursor: pointer!important;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    padding: 0.9em 1.7em;
+    font-size: 20px;
+    line-height: 18px;
+   font-family:"Akaya+Telivigala", cursive;
 }
 
 #second_page {
