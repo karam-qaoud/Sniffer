@@ -5,8 +5,7 @@
 }
 
 main {
-    min-height: 100vh;
-    background: url('./pictures/1.jpeg');
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: 1537px 750px;
 }
@@ -20,7 +19,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     min-height: 10vh;
-    color: white;
+    color: black;
 }
 ul {
     list-style: none;
@@ -40,10 +39,12 @@ ul {
     font-family: "Akaya+Telivigala", cursive;
     color:#FEE715FF;
     font-weight: bold;
+    -webkit-text-stroke: 0.2px black;
+
 }
 
 #big-text {
-    color: rgb(167, 167, 167);
+    color: black;
     font-size: 3.5rem;
     font-family:"Akaya+Telivigala", cursive;
     position: absolute;
@@ -63,10 +64,15 @@ ul {
     line-height: 18px;
    font-family:"Akaya+Telivigala", cursive;
 }
+#primary_dog {
+    position: fixed;
+    transform: translate(1200px,300px);
+    position: static;
+}
 
 #second_page {
     padding: 40px;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,12 +106,11 @@ ul {
 }
 
 #third_page {
-    min-height: 100vh;
+    height: 100vh;
     font-family: "Noto+Sans+JP";
 }
 
 #third_page_head {
-    margin-top: 50px;
     margin-left: 40%;
     font-family: "Noto+Sans+JP";
 }
