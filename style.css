@@ -64,7 +64,6 @@ ul {
    font-family:"Akaya+Telivigala", cursive;
 }
 #primary_dog {
-    position: fixed;
     transform: translate(1200px,300px);
     position: static;
 }
