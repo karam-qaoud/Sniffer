@@ -116,13 +116,34 @@ ul {
 .circle {
     background: rgb(255, 245, 151);
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     text-align:center;
 
+}
+#form_pic {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+#email_pic {
+    width: 150px;
+    height: 100px;
+    align-self: center;
+}
+
+#circle_dog {
+ /*  */
+}
+#circles_description {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align:center;
 }
 
 #circle_container {
