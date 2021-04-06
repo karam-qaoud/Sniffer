@@ -69,6 +69,7 @@ ul {
 }
 
 #second_page {
+    background-color: #F4F5F6;
     padding: 40px;
     height: 100vh;
     display: flex;
