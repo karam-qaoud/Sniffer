@@ -135,11 +135,8 @@ ul {
     align-self: center;
 }
 
-#circle_dog {
- /*  */
-}
 #circles_description {
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
