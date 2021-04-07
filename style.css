@@ -20,6 +20,7 @@ nav {
     justify-content: space-between;
     min-height: 10vh;
     color: black;
+    background-color: #FEE715FF;
 }
 ul {
     list-style: none;
@@ -37,9 +38,9 @@ ul {
 #logo {
     font-size: 1.7rem;
     font-family: "Akaya+Telivigala", cursive;
-    color:#FEE715FF;
+    /* color:#000000; */
     font-weight: bold;
-    -webkit-text-stroke: 0.2px black;
+    /* -webkit-text-stroke: 0.1px rgb(0, 0, 0); */
 
 }
 
@@ -82,19 +83,20 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-    border-width: thin;
     border-radius: 20px;
     padding: 1px;
-    background-color: rgb(255, 245, 151);
 }
 .landing_dogs img {
     border-radius: 20px;
 }
 
-.landing_dogs:hover{
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    font-size: 20px;
+.landing_dogs p {
+    text-align: center;
+    padding: 50px;
+}
+
+.landing_dogs img:hover{
+    box-shadow: 0 5px 15px rgba(254, 231, 21, 0.9);
     transition: font-size 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
@@ -110,12 +112,13 @@ ul {
 }
 
 #third_page_head {
-    margin-left: 40%;
+    margin-left: 45%;
+    margin-top: 50px;
     font-family: "Noto+Sans+JP";
 }
 
 .circle {
-    background: rgb(255, 245, 151);
+    background: #FEE715FF;
     border-radius: 50%;
     width: 250px;
     height: 250px;
@@ -149,4 +152,10 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     margin-top: 150px;
+}
+
+
+.footer {
+    height: 50vh;
+    background-color: #FEE715FF;
 }
