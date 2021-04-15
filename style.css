@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #FEE715FF;
+    --secondary-color: black;
+    --third-color: #F4F5F6;
+    --fourth-color: white;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +14,7 @@ main {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 1537px 750px;
+    background-color: var(--third-color);
 }
 
 
@@ -19,14 +26,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     min-height: 10vh;
-    color: black;
-    background-color: #FEE715FF;
+    color: var(--secondary-color);;
+    background-color: var(--primary-color);
 }
-ul {
+nav ul {
     list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 
@@ -41,11 +46,17 @@ ul {
     /* color:#000000; */
     font-weight: bold;
     /* -webkit-text-stroke: 0.1px rgb(0, 0, 0); */
+    color: var(--secondary-color);;
 
 }
+#icon {
+    width: 30px;
+    cursor: pointer;
+}
+
 
 #big-text {
-    color: black;
+    color: var(--secondary-color);;
     font-size: 3.5rem;
     font-family:"Akaya+Telivigala", cursive;
     position: absolute;
@@ -55,7 +66,7 @@ ul {
 #call_to_action {
     position: absolute;
     transform: translate(350%, 600%);
-    background-color:#FEE715FF;
+    background-color:var(--primary-color);;
     cursor: pointer!important;
     border-radius: 20px;
     border: none;
@@ -70,7 +81,7 @@ ul {
 }
 
 #second_page {
-    background-color: #F4F5F6;
+    background-color: var(--fourth-color);
     padding: 40px;
     height: 100vh;
     display: flex;
@@ -107,13 +118,14 @@ ul {
 }
 
 #third_page {
+    background-color: var(--third-color);
     height: 100vh;
     font-family: "Noto+Sans+JP";
 }
 
 #third_page_head {
     margin-left: 45%;
-    margin-top: 50px;
+    padding-top: 50px;
     font-family: "Noto+Sans+JP";
 }
 
@@ -145,6 +157,7 @@ ul {
     flex-direction: row;
     justify-content:space-around;
     text-align:center;
+    color: var(--secondary-color);
 }
 
 #circle_container {
@@ -157,5 +170,19 @@ ul {
 
 .footer {
     height: 50vh;
-    background-color: #FEE715FF;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
+.form {
+    padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items:flex-start;
+}
+
+input {
+    height: 30px;
+    border-radius: 15px;
+}
+
