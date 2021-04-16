@@ -51,7 +51,7 @@ nav ul {
   font-size: 1.2rem;
 }
 
-#logo {
+.logo {
   font-size: 1.7rem;
   font-family: "Akaya+Telivigala", cursive;
   font-weight: bold;
@@ -176,11 +176,17 @@ nav ul {
 }
 
 .footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
   height: 50vh;
   background-color: var(--primary-color);
 }
+
+.footer .logo {
+  align-self: center;
+  margin-left: 150px;
+}
 .form {
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -190,4 +196,15 @@ nav ul {
 input {
   height: 30px;
   border-radius: 5px;
+}
+.footer #connect {
+    padding: 50px;
+}
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer ul li{
+    padding: 20px;
 }
