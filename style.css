@@ -123,6 +123,7 @@ nav ul {
 .landing_dogs h3 {
   font-family: "Noto+Sans+JP";
   padding: 20px;
+  color: var(--secondary-color);
 }
 
 #third_page {
@@ -198,13 +199,13 @@ input {
   border-radius: 5px;
 }
 .footer #connect {
-    padding: 50px;
+  padding: 50px;
 }
 .footer ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.footer ul li{
-    padding: 20px;
+.footer ul li {
+  padding: 20px;
 }
