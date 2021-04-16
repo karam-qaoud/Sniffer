@@ -197,6 +197,8 @@ nav ul {
 input {
   height: 30px;
   border-radius: 5px;
+  background-color: var(--fourth-color);
+  color: var(--secondary-color);
 }
 .footer #connect {
   padding: 50px;
